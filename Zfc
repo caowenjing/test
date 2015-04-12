@@ -1,0 +1,11 @@
+public class StringDemo2 {
+     public static void main(String[] args){
+         String str = "how are you";
+         reverseMethod_1(str);
+     }
+     public static void reverseMethod_1(String str){
+         for(int i=str.length();i>0;i--){
+             System.out.print(str.charAt(i-1));
+         }
+     }
+ }
